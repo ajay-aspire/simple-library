@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "lib-simple": [
+        "dist/lib-simple"
+      ],
+      "lib-simple/*": [
+        "dist/lib-simple/*"
+      ]
+    }
   }
 }
